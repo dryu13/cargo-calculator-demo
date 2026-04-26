@@ -6,9 +6,9 @@ const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
 // Fallback данные
 const FALLBACK_RATES = {
-  Land: { 'All Risk': { additional: 0.0011, fullValue: 0.00115, minimum: 75 }, 'Total Loss': { additional: 0.0011, fullValue: 0.00115, minimum: 75 } },
-  Air: { 'All Risk': { additional: 0.002, fullValue: 0.002, minimum: 75 }, 'Total Loss': { additional: 0.002, fullValue: 0.002, minimum: 75 } },
-  Ocean: { 'All Risk': { additional: 0.0025, fullValue: 0.0025, minimum: 75 }, 'Total Loss': { additional: 0.0025, fullValue: 0.0025, minimum: 75 } }
+  Land: { 'All Risk': { additional: 0.00125, fullValue: 0.0015, minimum: 85 }, 'Total Loss': { additional: 0.00125, fullValue: 0.0015, minimum: 85 } },
+  Air: { 'All Risk': { additional: 0.0025, fullValue: 0.0025, minimum: 85 }, 'Total Loss': { additional: 0.0025, fullValue: 0.0025, minimum: 85 } },
+  Ocean: { 'All Risk': { additional: 0.0030, fullValue: 0.0030, minimum: 85 }, 'Total Loss': { additional: 0.0030, fullValue: 0.0030, minimum: 85 } }
 };
 
 const FALLBACK_DEDUCTIBLES = [
@@ -699,34 +699,7 @@ export default function FreightInsuranceCalculator() {
       {/* Excluded Commodities Popup */}
       <ExcludedCommoditiesPopup isOpen={showExcluded} onClose={() => setShowExcluded(false)} />
 
-      {/* Header with FreightInsuranceDirect Logo */}
-      <div style={{
-        maxWidth: '900px',
-        margin: '0 auto 30px',
-        textAlign: 'center'
-      }}>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          gap: '20px',
-          marginBottom: '10px',
-          flexWrap: 'wrap'
-        }}>
-          {/* Main Logo */}
-          <img 
-            src="/logo-main.png" 
-            alt="FreightInsuranceDirect - Ramon Inc. Since 1982"
-            style={{ height: '70px' }}
-          />
-          
-          {/* Trusted Badge */}
-          <img 
-            src="/badge-trusted.png" 
-            alt="Trusted Since 1982"
-            style={{ height: '60px' }}
-          />
-        </div>
+   
         
         <h2 style={{
           fontSize: '32px',
