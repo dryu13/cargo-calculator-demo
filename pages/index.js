@@ -697,10 +697,14 @@ export default function FreightInsuranceCalculator() {
       padding: '20px'
     }}>
       {/* Excluded Commodities Popup */}
-      <ExcludedCommoditiesPopup isOpen={showExcluded} onClose={() => setShowExcluded(false)} />
+       <ExcludedCommoditiesPopup isOpen={showExcluded} onClose={() => setShowExcluded(false)} />
 
-   
-        
+      {/* Header */}
+      <div style={{
+        maxWidth: '900px',
+        margin: '0 auto 30px',
+        textAlign: 'center'
+      }}>
         <h2 style={{
           fontSize: '32px',
           fontWeight: '600',
