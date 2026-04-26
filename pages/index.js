@@ -1091,22 +1091,7 @@ export default function FreightInsuranceCalculator() {
                 <p style={{ color: '#64748b', margin: '0 0 20px' }}>
                   For cargo values over $500,000, please contact us for a personalized quote.
                 </p>
-                <a
-                  href="https://ramonins-usa.com/contact-us/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    display: 'inline-block',
-                    padding: '14px 30px',
-                    background: 'linear-gradient(135deg, #ea580c 0%, #f97316 100%)',
-                    borderRadius: '10px',
-                    color: '#fff',
-                    textDecoration: 'none',
-                    fontWeight: '600'
-                  }}
-                >
-                  Request a Quote
-                </a>
+                <button style={{flex:'1 1 200px',padding:'16px 30px',background:'#e2e8f0',borderRadius:'10px',color:'#94a3b8',fontWeight:'600',border:'none',cursor:'default',textAlign:'center'}}>Demo version only</button>
               </div>
             ) : (
               <>
@@ -1263,24 +1248,7 @@ export default function FreightInsuranceCalculator() {
                 </div>
 
                 <div style={{ display: 'flex', gap: '15px', flexWrap: 'wrap' }}>
-                  <a
-                    href="https://ramonins-usa.com/purchase-now/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      flex: '1 1 200px',
-                      padding: '16px 30px',
-                      background: 'linear-gradient(135deg, #ea580c 0%, #f97316 100%)',
-                      borderRadius: '10px',
-                      color: '#fff',
-                      textDecoration: 'none',
-                      fontWeight: '600',
-                      textAlign: 'center',
-                      boxShadow: '0 4px 14px rgba(234, 88, 12, 0.3)'
-                    }}
-                  >
-                    Purchase Coverage →
-                  </a>
+                  <button style={{flex:'1 1 200px',padding:'16px 30px',background:'#e2e8f0',borderRadius:'10px',color:'#94a3b8',fontWeight:'600',border:'none',cursor:'default',textAlign:'center'}}>Demo version only</button>
                   <button
                     onClick={() => setShowExcluded(true)}
                     style={{
@@ -1316,7 +1284,7 @@ export default function FreightInsuranceCalculator() {
             fontSize: '12px',
             lineHeight: '1.6'
           }}>
-            <strong style={{ color: '#1e293b' }}>Disclaimer:</strong> All quotes are indicative and non-binding. Coverage, rates, limits, and terms are subject to verification of shipment information, underwriting approval, and policy issuance. We reserve the rights to modify or withdraw quotations. For support, call <strong style={{ color: '#1e293b' }}>888-441-4435</strong>.
+            <strong style={{ color: '#1e293b' }}>Disclaimer:</strong> All quotes are indicative and non-binding. Coverage, rates, limits, and terms are subject to verification of shipment information, underwriting approval, and policy issuance. We reserve the rights to modify or withdraw quotations. For support, call <strong style={{ color: '#1e293b' }}>Demo version only</strong>.
           </p>
         </div>
       </div>
@@ -1329,10 +1297,8 @@ export default function FreightInsuranceCalculator() {
         color: '#64748b',
         fontSize: '13px'
       }}>
-        <p style={{ margin: '0 0 10px' }}>© 2024 Ramon Inc. All rights reserved.</p>
+        <p style={{ margin: '0 0 10px' }}>© All rights reserved.</p>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', flexWrap: 'wrap' }}>
-          <a href="https://ramonins-usa.com" target="_blank" rel="noopener noreferrer" style={{ color: '#1e3a5f', textDecoration: 'none' }}>Website</a>
-          <a href="https://ramonins-usa.com/contact-us/" target="_blank" rel="noopener noreferrer" style={{ color: '#1e3a5f', textDecoration: 'none' }}>Contact Us</a>
           <button 
             onClick={() => setShowExcluded(true)}
             style={{ 
