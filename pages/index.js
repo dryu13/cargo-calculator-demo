@@ -674,7 +674,7 @@ export default function FreightInsuranceCalculator() {
     return (
       <div style={{
         minHeight: '100vh',
-        background: 'linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%)',
+        background: 'linear-gradient(180deg, #f5f2ee 0%, #f5f2ee 100%)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -691,7 +691,7 @@ export default function FreightInsuranceCalculator() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%)',
+      background: 'linear-gradient(180deg, #f5f2ee 0%, #f5f2ee 100%',
       fontFamily: "'Segoe UI', system-ui, sans-serif",
       color: '#1e293b',
       padding: '20px'
